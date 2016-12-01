@@ -2,6 +2,7 @@
 *.pyc
 *.pyo
 *.pyj-cached
+.idea
 .bzr
 .bzrignore
 .build-cache
