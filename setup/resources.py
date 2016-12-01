@@ -262,7 +262,8 @@ class RecentUAs(Command):
     UA_PATH = os.path.join(Command.RESOURCES, 'common-user-agents.txt')
 
     def get_list(self):
-        if is_ci:
+        #if is_ci:
+        if True:
             # Dont hammer the server from CI
             return [
                  # IE 11 - windows 10

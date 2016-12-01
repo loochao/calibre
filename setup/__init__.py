@@ -8,6 +8,7 @@ __docformat__ = 'restructuredtext en'
 
 import sys, re, os, platform, subprocess, time, errno
 
+print "loochao test"
 is64bit = platform.architecture()[0] == '64bit'
 iswindows = re.search('win(32|64)', sys.platform)
 isosx = 'darwin' in sys.platform
